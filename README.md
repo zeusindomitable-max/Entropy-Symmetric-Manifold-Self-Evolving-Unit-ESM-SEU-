@@ -1,69 +1,33 @@
-📁 ESM-SEU-Framework/
-
+📁esm-seu-theory/
 │
-
-├── README.
-
+├── README.md
 ├── LICENSE
-
-├── .gitignore
-
 ├── requirements.txt
-
+├── setup.py
 │
-
-├── docs/
-
-│   ├── paper_ESM_SEU.tex
-
-│   ├── references.bib
-
-│   └── figures/
-
-│       ├── esm_seu_diagram.png
-
-│       └── 
- stability_surface.png
- 
-│
-
 ├── src/
-
+│   ├── __init__.py
 │   ├── esm_seu.py
-
-│   ├── experiment_simulation.py
-
-│   ├── esm_seu_visualization.py
-
-│   └── utils.py
-
+│   ├── esm_core.py
+│   ├── esm_experiments.py
+│   └── esm_visualize.py
 │
-
 ├── data/
-
-│   ├── sample_loss_curve.csv
-
-│   ├── esm_results.npy
-
-│   └── seu_entropy.npy
-
+│   ├── sample_input.npy
+│   └── sample_output.npy
 │
-
 ├── notebooks/
-
-│   ├── esm_seu_demo.ipynb
-
-│   └── esm_seu_empirical.ipynb
-
+│   ├── esm_demo.ipynb
+│   └── esm_visualization.ipynb
 │
+├── latex/
+│   ├── esm_seu_theory.tex
+│   └── esm_experiment_results.tex
+│
+└── tests/
+    ├── test_esm_seu.py
+    └── test_core_math.py
 
-└── results/
-
-    ├── experiment_log.txt
-    
-    ├── esm_curve_plot.png
-    
-    └── seu_variance_plot.png
     
 
 
